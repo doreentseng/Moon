@@ -60,8 +60,13 @@ h3.title a {
             }
 		}
 		p {
-			font-weight: lighter;
 			@include font-rem(16);
+			color: $color_fuscous_gray;
+			// font-weight: lighter;
+		}
+		> .date {
+			@include font-rem(14);
+			color: $color_pink_swan;
 		}
 	}
 }
