@@ -218,5 +218,11 @@ header .entry-meta {
         background-color: rgba($black, 0.6);
         background-blend-mode: multiply;
         background-position: center center;
-    }
+	}
+	a.post-category {
+		color: white;
+	}
+	a.post-category:hover {
+		color: $color_mischka
+	}
 }
