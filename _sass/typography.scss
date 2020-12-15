@@ -155,18 +155,15 @@ dt {
 }
 
 // copyright
-footer {
-	position: relative;
-	margin-bottom: 0;
-	padding-bottom: 0.5em;
+.copyright-container {
+	width: 100%;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
 }
-footer.home {
-	position: absolute;
-	bottom: 0;
-	left: 0; 
-	right: 0; 
-	margin-left: auto; 
-	margin-right: auto;
+.copyright-container.home {
+	align-self: flex-end;
+	padding-bottom: 0em;
 }
 .copyright {
 	@include font-rem(14);
@@ -179,5 +176,8 @@ footer.home {
 	}
 	a:hover {
 		color: $red;
+	}
+	@media #{$small} {
+		color: $color_stack !important;
 	}
 }
