@@ -11,6 +11,7 @@ locale:             en_US
 url:                https://taylantatli.github.io/Moon
 hostby:             Github
 hostby-url:         https://github.com/taylantatli
+email-url:          fakeemail@email.com
 
 # Jekyll
 permalink:          /:title/
